@@ -1,0 +1,19 @@
+{
+  "name": "frc/wp-env-heroku-amazon-aws",
+  "license": "MIT",
+  "type": "library",
+  "description": "Export Amazon AWS configuration for amazon-web-services WP plugin.",
+  "keywords": ["Heroku", "WordPress", "Amazon Web Services", "Amazon AWS"],
+  "authors": [
+    {
+      "name": "Josep Roca",
+      "email": "josep.roca@frantic.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "autoload": {
+    "files": [ "src/AWS.php" ]
+  }
+}
